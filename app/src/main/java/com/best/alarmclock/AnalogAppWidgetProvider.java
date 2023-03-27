@@ -43,7 +43,7 @@ public class AnalogAppWidgetProvider extends AppWidgetProvider {
             return;
         }
 
-        // conflict
+        // there will be some conflict
         final ComponentName provider = new ComponentName(context, getClass());
         final int widgetCount = wm.getAppWidgetIds(provider).length;
 
