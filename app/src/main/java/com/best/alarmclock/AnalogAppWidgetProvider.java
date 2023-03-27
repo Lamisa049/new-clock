@@ -43,7 +43,7 @@ public class AnalogAppWidgetProvider extends AppWidgetProvider {
             return;
         }
 
-        // Send events for newly created/deleted widgets.
+        // Conflictttttt.
         final ComponentName provider = new ComponentName(context, getClass());
         final int widgetCount = wm.getAppWidgetIds(provider).length;
 
